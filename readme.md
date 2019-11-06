@@ -14,28 +14,28 @@ Tokenizer PHP Extension
 XML PHP Extension
 
 ## Installing Laravel
-1. Siapkan dataase mysql  dan beri nama "laravel"  lalu buat tabel berikut
-    CREATE TABLE `template` (
-  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `a` varchar(45) NOT NULL,
-  `b` varchar(45) NOT NULL,
-  `c` varchar(45) NOT NULL,
-  `d` varchar(45) NOT NULL,
-  `e` varchar(45) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+1. Siapkan dataase mysql  dan beri nama "laravel"  lalu buat tabel berikut: <br> 
+    CREATE TABLE `template` (<br>
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT, <br>
+  `a` varchar(45) NOT NULL, <br>
+  `b` varchar(45) NOT NULL, <br>
+  `c` varchar(45) NOT NULL,<br>
+  `d` varchar(45) NOT NULL,<br>
+  `e` varchar(45) NOT NULL,<br>
+  PRIMARY KEY (`id`)<br>
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;<br>
 
 2. Selanjutnya buka folder htdocs
 3. jalankan perintah clone
     git clone "https://github.com/suhendrajaya/test2.git"
 
-4. rename .env.example jadi .env pastikan setting database sesuai dengan local Anda
-    DB_CONNECTION=mysql
-    DB_HOST=127.0.0.1
-    DB_PORT=3306
-    DB_DATABASE=laravel
-    DB_USERNAME=root
-    DB_PASSWORD=
+4. rename .env.example jadi .env pastikan setting database sesuai dengan local Anda <br>
+    DB_CONNECTION=mysql<br>
+    DB_HOST=127.0.0.1<br>
+    DB_PORT=3306<br>
+    DB_DATABASE=laravel<br>
+    DB_USERNAME=root<br>
+    DB_PASSWORD=<br>
 
 5.  dalam folder "test2" buat folder berikut:
     - storage <br>
