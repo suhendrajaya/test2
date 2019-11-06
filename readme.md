@@ -38,19 +38,19 @@ XML PHP Extension
     DB_PASSWORD=
 
 5.  dalam folder "test2" buat folder berikut:
-    - storage
-    -- app
-    ---- files
-    ------ Type_A.xls
-    ------ Type_A.xlsx
-    ------ Type_B.xls
-    ------ Type_B.xlsx
-    -- framework
-    ---- cache
-    ---- sessions
-    ---- testing
-    ---- views
-    -- logs
+    - storage <br>
+    -- app<br>
+    ---- files<br>
+    ------ Type_A.xls<br>
+    ------ Type_A.xlsx<br>
+    ------ Type_B.xls<br>
+    ------ Type_B.xlsx<br>
+    -- framework<br>
+    ---- cache<br>
+    ---- sessions<br>
+    ---- testing<br>
+    ---- views<br>
+    -- logs<br>
 
 6. masih di dalan folder "test2" jalankan perintah cli  "composer install"
 
