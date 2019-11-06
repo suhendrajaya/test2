@@ -3,15 +3,15 @@ The Laravel framework has a few system requirements. All of these requirements a
 
 However, if you are not using Homestead, you will need to make sure your server meets the following requirements:
 
-PHP >= 7.2.0
-BCMath PHP Extension
-Ctype PHP Extension
-JSON PHP Extension
-Mbstring PHP Extension
-OpenSSL PHP Extension
-PDO PHP Extension
-Tokenizer PHP Extension
-XML PHP Extension
+PHP >= 7.2.0 <br>
+BCMath PHP Extension<br>
+Ctype PHP Extension<br>
+JSON PHP Extension<br>
+Mbstring PHP Extension<br>
+OpenSSL PHP Extension<br>
+PDO PHP Extension<br>
+Tokenizer PHP Extension<br>
+XML PHP Extension<br>
 
 ## Installing Laravel
 1. Siapkan dataase mysql  dan beri nama "laravel"  lalu buat tabel berikut: <br> 
